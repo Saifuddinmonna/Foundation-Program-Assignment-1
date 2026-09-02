@@ -42,7 +42,7 @@ function validateUsername(username) {
 
 // Question No. 4
 function getCngFare(distance, isNight = false, waitingMinutes = 0) {
-    let fare = 50; // সর্বনিম্ন ভাড়া ২ কিমি এর জন্য
+    let fare = 50; 
 
     if (distance > 2) {
         fare = fare + (distance - 2) * 15;
