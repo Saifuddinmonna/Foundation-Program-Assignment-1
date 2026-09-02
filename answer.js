@@ -1,4 +1,4 @@
-// Question 1: Value Detective
+// Question No.1
 function describeValue(value) {
     let type = typeof value;
     let truthiness = value ? "truthy" : "falsy";
@@ -6,7 +6,7 @@ function describeValue(value) {
 }
 
 
-// Question 2: Bangladesh Weekend Machine
+// Question No. 2
 function getDayType(day) {
     let formattedDay = day.toLowerCase();
     switch (formattedDay) {
@@ -25,7 +25,7 @@ function getDayType(day) {
 }
 
 
-// Question 3: Username Gatekeeper
+// Question No. 3
 function validateUsername(username) {
     if (username.length < 4) {
         return "Too Short";
@@ -40,7 +40,7 @@ function validateUsername(username) {
 }
 
 
-// Question 4: Dhaka CNG Fare Meter
+// Question No. 4
 function getCngFare(distance, isNight = false, waitingMinutes = 0) {
     let fare = 50; // সর্বনিম্ন ভাড়া ২ কিমি এর জন্য
 
@@ -58,7 +58,7 @@ function getCngFare(distance, isNight = false, waitingMinutes = 0) {
 }
 
 
-// Question 5: Run Chase Commentator
+// Question No. 5
 const getChaseVerdict = (target, scored, ballsLeft) => {
     let runsNeeded = target - scored;
 
