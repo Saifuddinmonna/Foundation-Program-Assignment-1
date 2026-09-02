@@ -1,4 +1,4 @@
-// Question No. 1: Value Detective
+// Question 1: Value Detective
 function describeValue(value) {
     let type = typeof value;
     let truthiness = value ? "truthy" : "falsy";

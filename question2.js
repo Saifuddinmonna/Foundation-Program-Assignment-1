@@ -1,4 +1,4 @@
-// Question No. 2: Bangladesh Weekend Machine
+// Question 2: Bangladesh Weekend Machine
 function getDayType(day) {
     let formattedDay = day.toLowerCase();
     switch (formattedDay) {
