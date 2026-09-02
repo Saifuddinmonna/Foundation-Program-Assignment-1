@@ -12,10 +12,10 @@ function validateUsername(username) {
     return "Available";
 }
 
-console.log(validateUsername("rahim123"));      // আউটপুট: Available
-console.log(validateUsername("ab"));            // আউটপুট: Too Short
-console.log(validateUsername("a b"));           // আউটপুট: Too Short
-console.log(validateUsername("abcd"));          // আউটপুট: Available
-console.log(validateUsername("rahim islam"));   // আউটপুট: No Space Allowed
-console.log(validateUsername("superadmin99"));  // আউটপুট: Reserved Word
-console.log(validateUsername("Admin_Rahim"));   // আউটপুট: Reserved Word
+console.log(validateUsername("rahim123"));      // result : Available
+console.log(validateUsername("ab"));            // result : Too Short
+console.log(validateUsername("a b"));           // result : Too Short
+console.log(validateUsername("abcd"));          // result : Available
+console.log(validateUsername("rahim islam"));   // result : No Space Allowed
+console.log(validateUsername("superadmin99"));  // result : Reserved Word
+console.log(validateUsername("Admin_Rahim"));   // result : Reserved Word
